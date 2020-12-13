@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "glitched";
+    src: url(../glitched.html) format("truetype");
+}
+body {
+	user-drag: none; 
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: monospace;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px rgba(8,230,255,100), -1px -1px 0px rgba(255,0,0,100);
+	cursor:  url(../arrow.html) 4 12, auto;
+	z-index: 1337;
+}
+pre {
+    text-align: center;
+    font-family: monospace;
+}
+#center {               
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
+#marquee {
+    width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+ video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 135%;
+    min-height: 110%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+	overflow: hidden;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+     volume: 0.3;
+     }
+footer {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    overflow:hidden;
+	bottom: 1;
+	height: 50;
+}
+.ytplayer-player {
+    position: absolute;
+    z-index:-1337;
+}
+.background-video {
+    background-position: top center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+#pYoutubeVid  {
+	z-index: -1337;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    volume: 0.3;
+}
+.marquee {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    overflow:hidden;
+	top: 1;
+	height: 75;
+}

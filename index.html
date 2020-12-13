@@ -1,197 +1,107 @@
-<Script Language='Javascript'>
-document.write(unescape('<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>MysteryCatz</title>
-		<script src="jquery.html"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">   
-		<link rel="icon" href="favicon.html"/>   
-		</head>
 
-<body>
-	    		<video autoplay loop id="video">
-     		<source src="video.mp4" type="video/mp4">
-     		<script>
-			var video = document.currentScript.parentElement;
-			video.volume = 0.4;
-		</script>
-		</video>
-		<div id="center">
-		<a href="https://steamcommunity.com/groups/ayywar3"" target=_blank><pre>
+<html lang="en-us" class="yum&.1337">
+    
 
 
-b1g meme text here to shittalk everyone
-                                                                                                          
-                                                                                                          
-                                                                                                                                                    
-		</pre></a>
-		<div class="animated fadeIn">
-		<pre><p align="middle">[ <a href="https://github.com/ORI00" target=_blank>nonamer1</a> . <a href="https://github.com/ORI00" target=_blank>nonamer2</a> . <a href="https://github.com/ORI00" target="_blank">nonamer3</a> . <a href="https://github.com/ORI00" target=_blank>nonamer4</a> ]</pre>
-		</div>
-		<script language="JavaScript">
-
-    document.onkeypress = function (event) {
-        event = (event || window.event);
-        if (event.keyCode == 123) {
-            return false;
-        }
-    }
-    document.onmousedown = function (event) {
-        event = (event || window.event);
-        if (event.keyCode == 123) {
-            return false;
-        }
-    }
-document.onkeydown = function (event) {
-        event = (event || window.event);
-        if (event.keyCode == 123) {
-            return false;
-        }
-    }
-
-var message="Sorry, right-click has been disabled";
-
-function clickIE() {if (document.all) {(message);return false;}}
-function clickNS(e) {if
-(document.layers||(document.getElementById&&!document.all)) {
-if (e.which==2||e.which==3) {(message);return false;}}}
-if (document.layers)
-{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
-else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
-document.oncontextmenu=new Function("return false")
-
-function disableCtrlKeyCombination(e)
-{
-
-var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'u', 'w', 'i');
-var key;
-var isCtrl;
-if(window.event)
-{
-key = window.event.keyCode;
-if(window.event.ctrlKey)
-isCtrl = true;
-else
-isCtrl = false;
-}
-else
-{
-key = e.which;
-if(e.ctrlKey)
-isCtrl = true;
-else
-isCtrl = false;
-}
-if(isCtrl)
-{
-for(i=0; i<forbiddenKeys.length; i++)
-{
-if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
-{
-return true;
-}
-}
-}
-return true;
-}
-
-    $(window).on('keydown',function(event)
-    {
-    if(event.keyCode==123)
-    {
+<head>
+    <title>RfK</title>
+	<meta charset="utf-8">
+    <script type="text/javascript" src="jajaja/js/title.js"></script>
+	<link rel="shortcut icon" href="jajaja/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="jajaja/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0  ">
+    <link href="https://fonts.googleapis.com/css?family=stonewash:100,300,400,700&amp;effect=anaglyph" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="code.jquery.com/jquery-2.1.1.min.js"></script><script type="text/javascript" src="jajaja/js/materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="jajaja/css/style.css">
+	<script src="jajaja/js/time.js"></script>
+	<script src="jajaja/js/magie.js" type="text/javascript"></script>
+	<img src="https://iplogger.com/1EtaN6" alt="uff" border="0">
+	<link rel="stylesheet" href="jajaja/css/animate.css"></link>
+	<link type="text/css" rel="stylesheet" href="jajaja/css/materialize.css" media="screen,projection">
+</head>
+<nav class="transparent z-depth-0">
+     <div class="nav-wrapper">
+         <a href="#" data-activates="menu-mobile" class="button-collapse">
+             <i class="material-icons">menu</i>
+         </a>
+         <ul class="right hide-on-med-and-down">
+			 <li><a href="https://github.com/ORI00">Text1</a></li>
+             <li><a href="https://github.com/ORI00">Text2</a></li>
+             <li><a href="https://github.com/ORI00">Text3</a></li>
+             <li><a href="https://github.com/ORI00">Text4</a></li>
+             <li><a href="https://github.com/ORI00">Text5</a></li>
+         </ul>
+     </div>
+ </nav>
+<body onload="startTime()" oncontextmenu="return false;" onmousedown="return false;"><div class="contain">
+	
+	<img src="jajaja/logo.png" draggable="false"></a><br>
+	<div id="txt"></div></div>
+<hr>
+</div>
+        <div id="pYoutubeVid" class="background-video"></div>
+        <script>
+            jQuery(function($) {
+                $('#pYoutubeVid').YTPlayer({
+                    fitToBackground: true,
+                    videoId: "YTHr7gxwYUQ",
+                    mute: false,
+                    pauseOnScroll: false,
+                    playerVars: {
+                        start: 1,
+                        disablekb: 1,
+                        modestbranding: 0,
+                        autoplay: 1,
+                        controls: 0,
+                        showinfo: 0,
+                        wmode: 'transparent',
+                        branding: 0,
+                        rel: 0,
+                        autohide: 0,
+                        playlist: "Ogn3qwA5JJM,OIgs9Y-xwa8,g4poKgQZX6w,28xHtRw6pG8,m4-1QTNHkJc,wMxyiz2kvFs",
+                        origin: window.location.origin
+                        
+                        
+                    }
+                });
+            });
+        </script>
+ <script>
+ $(function(){
+     $(".button-collapse").sideNav();
+ });
+ </script>
+<script>$(document).keydown(function(event){
+    if(event.keyCode==8,9,13,16,17,18,19,20,27,33,34,35,36,37,38,39,40,45,46,48,49,50,51,52,53,54,55,56,57,65,66,67,68,69,70,71,72,73,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,96,97,98,99,100,101,102,103,14,105,106,107,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,144,145,189,187,188,189,190,191,192,219,220,221,222){
         return false;
     }
-    else if(event.ctrlKey && event.shiftKey && event.keyCode==73)
-    {
-        return false; 
+    else if (event.ctrlKey && event.shiftKey && event.keyCode==73){        
+             return false;
     }
-    else if(event.ctrlKey && event.keyCode==73)
-    {
-        return false; 
-    }
-});
-$(document).on("contextmenu",function(e)
-{
-e.preventDefault();
 });
 
-    $(window).on('keydown',function(event)
-    {
-    if(event.keyCode==123)
-    {
-        return false;
-    }
-    else if(event.ctrlKey && event.shiftKey && event.keyCode==74)
-    {
-        return false; 
-    }
-    else if(event.ctrlKey && event.keyCode==74)
-    {
-        return false;
-    }
-});
-$(document).on("contextmenu",function(e)
-{
-e.preventDefault();
-});
-    $(window).on('keydown',function(event)
-    {
-    if(event.keyCode==123)
-    {
-        return false;
-    }
-    else if(event.ctrlKey && event.shiftKey && event.keyCode==73)
-    {
-        return false; 
-    }
-    else if(event.ctrlKey && event.keyCode==73)
-    {
-        return false; 
-    }
-});
-$(document).on("contextmenu",function(e)
-{
-e.preventDefault();
+$(document).on("contextmenu",function(e){        
+   e.preventDefault();
 });
 
-    $(window).on('keydown',function(event)
-    {
-    if(event.keyCode==123)
-    {
-        return false;
-    }
-    else if(event.ctrlKey && event.keyCode==70)
-    {
-        return false; 
-    }
-    else if(event.ctrlKey && event.keyCode==70)
-    {
-        return false;
-    }
-});
-$(document).on("contextmenu",function(e)
-{
-e.preventDefault();
-});
-   $(window).on('keydown',function(event)
-    {
-    if(event.keyCode==123)
-    {
-        return false;
-    }
-    else if(event.keyCode==122)
-    {
-        return false;
-    }
-    else if(event.keyCode==122)
-    {
-        return false;
-    }
-});
-$(document).on("contextmenu",function(e)
-{
-e.preventDefault();
+$(document).on("contextmenu",function(e){        
+   e.preventDefault();
 });
 </script>
-</Script>
+<script language="javascript">
+			document.onmousedown=disableclick;
+		function disableclick(event)
+		{
+			if(event.button==2)
+			{
+				alert("uff");
+			return false;    
+			}
+		}
+		</script>
+<div class="hiddendiv common"></div></body>
+
+
+</html>

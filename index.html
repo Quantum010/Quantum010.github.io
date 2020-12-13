@@ -1,89 +1,205 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html>
 
 
 <head>
-<meta charset="UTF-8">
-<link rel="shortcut icon" type="image/x-icon" href="media/weeb.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/javascript">
-                var msg  = document.title ="Edgy Title";
-                var speed = 150;
-                var endChar = " ";
-                var pos = 0;
-                
-                function moveTitle()
-                {
-                     var ml = msg.length;
-                        
-                    title = msg.substr(pos,ml) + endChar + msg.substr(0,pos);
-                  document.title = title;
-                    
-                  pos++;
-                  if (pos > ml) pos=0;
-                  window.setTimeout("moveTitle()",speed);
-                }
-            
-                moveTitle();
-            </script>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body onload="startTime()">
-<div id="txt"></div>
-<body>
-<div class="background-wrap">
-<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop">
-<source src="media/video.mp4" type="video/mp4">
-<source src="media/video.ogg" type="video/ogg">
-Video not supported
-</video>
-</div>
-<div class="content">
-<h1>Title</h1>
-<p>Subtitle</p>
-<p><a href="https://github.com/ORI00" target="blank_" style="color: #00F555">Edgy Link here</a></p>
-</div>
-<script language="JavaScript">
-            var vid = document.getElementById("video-bg-elem");
-            vid.volume = 0.1;
-  window.onload = function() {
-    document.addEventListener("contextmenu", function(e){
-      e.preventDefault();
-    }, false);
-    document.addEventListener("keydown", function(e) {
-    //document.onkeydown = function(e) {
-      // "I" key
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
-        disabledEvent(e);
-      }
-      // "J" key
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-        disabledEvent(e);
-      }
-      // "S" key + macOS
-      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
-        disabledEvent(e);
-      }
-      // "U" key
-      if (e.ctrlKey && e.keyCode == 85) {
-        disabledEvent(e);
-      }
-      // "F12" key
-      if (event.keyCode == 123) {
-        disabledEvent(e);
-      }
-    }, false);
-    function disabledEvent(e){
-      if (e.stopPropagation){
-        e.stopPropagation();
-      } else if (window.event){
-        window.event.cancelBubble = true;
-      }
-      e.preventDefault();
-      return false;
+<title>Aimware Number 1</title>
+<link rel="shortcut icon" href="yt3.ggpht.com/-Vhv0ZWAKA5w/AAAAAAAAAAI/AAAAAAAAAAA/B0yLtBWeIaw/s240-c-k-no-mo-rj-c0xffffff/photo.html" />
+
+<!-- style -->
+    <link rel="stylesheet" href="444.com.tr/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="444.com.tr/css/style.css" media="screen">
+    <link rel="stylesheet" href="444.com.tr/css/normalize.css" media="screen">
+    <link rel="stylesheet" href="444.com.tr/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="444.com.tr/css/media.css" media="screen">
+<!-- /style -->
+
+<!--[if IE]>
+    <style>section{overflow:hidden !important;}</style>
+<![endif]-->
+
+<style>
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+#bgvid{
+        position: fixed;
+        top:50%;
+        left:50%;
+        min-width:100%;
+        min-height:100%;
+        width:auto;
+        height:auto;
+        z-index: -100;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background-size: cover;
+}
+
+.text {
+    fill: none;
+    stroke-width: 6;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 6s infinite linear;
+    animation: stroke 6s infinite linear;
+}
+
+.text:nth-child(5n + 1) {
+    stroke:  #C313EE;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+}
+.text:nth-child(5n + 2) {
+    stroke:  #000000;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s;
+}
+
+.text:nth-child(5n + 3) {
+    stroke:  #00FFF3;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s;
+}
+
+.text:nth-child(5n + 4) {
+    stroke: #FFFFFF;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s;
+}
+
+.text:nth-child(5n + 5) {
+    stroke:  #00FFF3;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+    100% {
+	stroke-dashoffset: -400;
     }
-  };
+}
+
+@keyframes stroke {
+    100% {
+	stroke-dashoffset: -400;
+    }
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background:  #00FFF3;
+    background-size: .2em 100%;
+    font: 11.5em/1 Open Sans, Impact;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- <style type="text/css" media="screen"> body { background: url(https://i.stack.imgur.com/NEuip.jpg) } </style> -->
+
+</center></body>
+
+<!-- PRELOADER -->
+    <div id="preloader">
+	<div class="loading">
+	    <div class="loader"></div>
+	</div>
+    </div>
+<!-- /PRELOADER -->
+
+
+<!-- HOME SCREEN -->
+    <div id="star" class="video mask overlay"><canvas class="cover"></canvas></div>
+	<section id="home" class="home">
+
+<svg viewBox="0 50 1450 1000">
+    <symbol id="s-text">
+	<text text-anchor="middle" x="50%" y="50%" dy=".35em">JACKLE</text>=
+    </symbol>
+        <use xlink:href="#s-text" class="text"></use>
+	<use xlink:href="#s-text" class="text"></use>
+	<use xlink:href="#s-text" class="text"></use>
+	<use xlink:href="#s-text" class="text"></use>
+	<use xlink:href="#s-text" class="text"></use>
+</svg>
+
+<!-- /HOME SCREEN -->
+
+	<script src="444.com.tr/js/jquery.js"></script>
+	<script src="444.com.tr/js/bootstrap.min.js"></script> 
+	<script src="444.com.tr/js/modernizr.custom.js"></script>
+	<script src="444.com.tr/js/plugins.min.js"></script>
+	<script src="444.com.tr/js/main.js"></script>
+
+
+<!-- FOOTER -->
+<footer id="ftr" style="position:fixed; left:0px; right:0px; bottom:3px; background:transparent); text-align:center;"><font face="Courier New" size="2">
+
+<!-- <iframe width="1" height="1" src="https://www.youtube.com/embed/f5lZXCnh5So?rel=0&autoplay=1&loop=1&playlist=f5lZXCnh5So" frameborder="0" allowfullscreen></iframe> -->
+
+<center><font color="#00FFF3">NN's</font><marquee direction="up" scrollamount="2" height="15" width="160" onmouseover="this.stop()" onmouseout="this.start()"><font color="#ffffff"><center>
+fbi<br><br>
+zen<br><br>
+orxy<br><br>
+
+
+</center></marquee><font color="#FFFFFF"> | <font color="#00FFF3"> <a href="http://steamcommunity.com/id/uffjamedia/" target="_blank" style="text-decoration:none"><font color="#FFFFFF">Jackle</font></a><font color="#000000"><font color="#00FFF3"><font color="#FFFFFF"> 
+</font></footer>
+
+
+
+<!-- /FOOTER -->
+
+
+<video id="bgvid" autoplay="autoplay" loop="loop">
+<source src='video/dex.mp4' type='video/mp4';'></source>
+
+<script type="text/javascript">
+    window.onkeydown = function(evt) {
+        if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
+    };
+
+    window.onkeypress = function(evt) {
+        if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
+    };
+
+function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };
+$(document).on("keydown", disableF5);
+
+function hitmarker(){
+var audio = new Audio('1.mp3');
+audio.play();
+}
 </script>
+</head>
+<body oncontextmenu="return false;" onclick="hitmarker();" unselectable="on" onselectstart="return false;">
+<div class="container" style="height: 100%; display: flex; align-items: center; justify-content: center; margin: 0 auto">
+        <main>
+
+  
+</body>
+
+</html>	
+
+<script>
+        var video = document.currentScript.parentElement;
+        video.volume = 1.5;
+</script>
+
 </body>
 
 </html>

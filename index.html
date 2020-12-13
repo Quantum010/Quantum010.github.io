@@ -1,283 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html >
 
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<script src="assets/me.js"></script>
-<link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="assets/animate.css">
-<script src="assets/jquery.html"></script>
- <script src="assets/marqueejs.html"></script>
-<script src="assets/main.html"></script>
-
-		
-        <link rel="shortcut icon" href="favicon.ico">
-		<script language="JavaScript">
-		<!-- 
-		function Scroll()
-		{
-		document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
-		pos++;
-		if (pos > msg.length) pos = 0;
-		window.setTimeout("Scroll()", speed);
-		}
-		Scroll();
-		-->
-		</script><title>/ title /</title>
-</head>
-		
-		
-
-   
-
-
-
-
-
-
-   <body>
-	
-			<div class="animated fadeInUp">
-			<center><div id="clockDisplay" class="clockStyle"></div></center>
-			<script>
-			function renderTime() {
-			var currentTime = new Date();
-			var diem = "am";
-			var h = currentTime.getHours();
-			var m = currentTime.getMinutes();
-			var s = currentTime.getSeconds();
-			setTimeout('renderTime()',1000);
-			if (h == 0) {
-				h = 12;
-			} else if (h > 12) { 
-				h = h - 12;
-				diem="pm";
-			}
-			if (h < 10) {
-				h = "0" + h;
-			}
-			if (m < 10) {
-				m = "0" + m;
-			}
-			if (s < 10) {
-				s = "0" + s;
-			}
-			var myClock = document.getElementById('clockDisplay');
-			myClock.textContent = h + ":" + m + ":" + s + " " + diem;
-			myClock.innerText = h + ":" + m + ":" + s + " " + diem;
-			}
-			renderTime();
-			</script>		
-			</div>
-			
-
-        <div id="center">
-		<div class="animated jackInTheBox">
-		<div id="main">
-		<div class="pictureContainer">
-		<a href="https://github.com/ORI00"><img class="theimage" src="https://i.imgur.com/aQKF5XB.png" height="168" width="300"/></a>
-		<script src="assets/hoover.js"></script>
-		</div>
-		</div>
-		</div>
-		</div>
-		<div class="fadeIn">
-		</div>
-		<center>
-		<div class="container">
-		<div class="animated flash">
-		<div class="animated fadeInDown">
-		<div class="marque"></div>
-		<p> ur edgy text here to flex on the haters..</p>
-		</div>
-		</div>
-		<div class="animated fadeInLeft">
-		<m=arquee</m=arquee>
-		</center>
-		</div>
-		</div>
-		</div>
-		
-		
-		
-		<video id="bg" preload="auto" autoplay="true" loop="">
-        <source id="played" src="assets/background.mp4" type="video/mp4"></source>
+		<meta charset="UTF-8">
+		<title>RfK Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+		<link rel='stylesheet prefetch' href='maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+		<link rel="stylesheet" href="css/style.css">
+		<link href="css/animate.css" rel="stylesheet">
+	</head>
+	<body onmousedown="return false" onselectstart="return false">
+		<video autoplay='true' class='video' loop='true'>
+			<source src='vid.mp4'>
 		</video>
-		<audio autoplay="" loop="" id="player">
-		<source src="assets/music.mp3"></source>
-		<script>
-		var audio = document.currentScript.parentElement;
-		audio.volume = 0.5;
-		</script>
-		</audio>
 		
+		<div class="pageoverlay">
+         <div class="lightbox">
+            <div class="awrapper">
+               <div class="titles animated rubberBand" style="animation-delay: 6s;">
+                  <div class="animated zoomIn" style="animation-delay: 3s;">
+                     <h1><font color="#FFFFFF">R</font><font color="#FF1493">FK</font><font color="#FFFFFF"></font></h1>
+                  </div>
+               </div>
+			   
+		<div class='hidden_overlay'></div>
+		<div class="wrap" style="animation-delay: 6s;">
+			
+			<a href='https://github.com/ORI00' target='_blank'>
+				<span class='button'>
+					<span class='fa fa-steam'></span>
+					STEAM PROFILE
+				</span>
+			</a>
+			<a href='https://github.com/ORI00' target='_blank'>
+				<span class='button'>
+					<span class='fa fa-comments'></span>
+					DISCORD
+				</span>
+			</a>
+</a>
+			<a href='https://github.com/ORI00' target='_blank'>
+				<span class='button'>
+					<span class='fa fa-shop'></span>
+					Another one
+				</span>
+			</a>
+
+            <a href="#" onClick="goSomewhere(); return false;">
+                <script type="text/javascript">
+    
+            
+		</div>
 		
-		
-		<!--Inspect blocker-->
-	<script language="JavaScript">
-		document.onkeypress = function (event) {
-			event = (event || window.event);
-			if (event.keyCode == 123) {
-				return false;
-			}
-		}
-		document.onmousedown = function (event) {
-			event = (event || window.event);
-			if (event.keyCode == 123) {
-				return false;
-			}
-		}
-	document.onkeydown = function (event) {
-			event = (event || window.event);
-			if (event.keyCode == 123) {
-				return false;
-			}
-		}
-	 
-	var message="Sorry, right-click has been disabled";
-	 
-	function clickIE() {if (document.all) {(message);return false;}}
-	function clickNS(e) {if
-	(document.layers||(document.getElementById&&!document.all)) {
-	if (e.which==2||e.which==3) {(message);return false;}}}
-	if (document.layers)
-	{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
-	else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
-	document.oncontextmenu=new Function("return false")
-	 
-	function disableCtrlKeyCombination(e)
-	{
-	 
-	var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'u', 'w', 'i');
-	var key;
-	var isCtrl;
-	if(window.event)
-	{
-	key = window.event.keyCode;    
-	if(window.event.ctrlKey)
-	isCtrl = true;
-	else
-	isCtrl = false;
-	}
-	else
-	{
-	key = e.which;    
-	if(e.ctrlKey)
-	isCtrl = true;
-	else
-	isCtrl = false;
-	}
-	if(isCtrl)
-	{
-	for(i=0; i<forbiddenKeys.length; i++)
-	{
-	if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
-	{
-	return true;
-	}
-	}
-	}
-	return true;
-	}
-	 
-		$(window).on('keydown',function(event)
-		{
-		if(event.keyCode==123)
-		{
-			return false;
-		}
-		else if(event.ctrlKey && event.shiftKey && event.keyCode==73)
-		{
-			return false;  //Prevent from ctrl+shift+i
-		}
-		else if(event.ctrlKey && event.keyCode==73)
-		{
-			return false;  //Prevent from ctrl+shift+i
-		}
-	});
-	$(document).on("contextmenu",function(e)
-	{
-	e.preventDefault();
-	});
-	 
-		$(window).on('keydown',function(event)
-		{
-		if(event.keyCode==123)
-		{
-			return false;
-		}
-		else if(event.ctrlKey && event.shiftKey && event.keyCode==74)
-		{
-			return false;  //Prevent from ctrl+shift+j
-		}
-		else if(event.ctrlKey && event.keyCode==74)
-		{
-			return false;  //Prevent from ctrl+shift+j
-		}
-	});
-	$(document).on("contextmenu",function(e)
-	{
-	e.preventDefault();
-	});
-		$(window).on('keydown',function(event)
-		{
-		if(event.keyCode==123)
-		{
-			return false;
-		}
-		else if(event.ctrlKey && event.shiftKey && event.keyCode==73)
-		{
-			return false;  //Prevent from ctrl+shift+i
-		}
-		else if(event.ctrlKey && event.keyCode==73)
-		{
-			return false;  //Prevent from ctrl+shift+i
-		}
-	});
-	$(document).on("contextmenu",function(e)
-	{
-	e.preventDefault();
-	});
-	 
-		$(window).on('keydown',function(event)
-		{
-		if(event.keyCode==123)
-		{
-			return false;
-		}
-		else if(event.ctrlKey && event.keyCode==70)
-		{
-			return false;  //Prevent from ctrl+f
-		}
-		else if(event.ctrlKey && event.keyCode==70)
-		{
-			return false;  //Prevent from ctrl+f
-		}
-	});
-	$(document).on("contextmenu",function(e)
-	{
-	e.preventDefault();
-	});
-	   $(window).on('keydown',function(event)
-		{
-		if(event.keyCode==123)
-		{
-			return false;
-		}
-		else if(event.keyCode==122)
-		{
-			return false;  //Prevent from f11
-		}
-		else if(event.keyCode==122)
-		{
-			return false;  //Prevent from f11
-		}
-	});
-	$(document).on("contextmenu",function(e)
-	{
-	e.preventDefault();
-	});
-	</script>
+        </DIV>
+	<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_nexuzss&amp;utm_content=footer_img"><img src="https://cloud.githubusercontent.com/assets/23024110/20663010/9968df22-b55e-11e6-941d-edbc894c2b78.png"  alt="www.000webhost.com"></a></div></body>
+
+
 
 </html>

@@ -1,7 +1,6 @@
-# Website7
+# Website8
 Another Website Template with background video
-Demo: https://www.suiicide.xyz/Site7/
+Demo: https://www.suiicide.xyz/Site8/
+Credits to NoHax
 
-How to replace logo: Make some logo save logo.png replace = profit
-
-.RfK#1994
+Support: .RfK#1994
